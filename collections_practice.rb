@@ -85,7 +85,7 @@ def organize_schools(array)
           organized[location] = []
           organized[location] << name
         else  
-          organized[location] = name
+          organized[location] << name
         end  
       end  
     end
