@@ -50,6 +50,8 @@ def count_elements(array)
 end 
 
 def merge_data(array)
-  array.flatten
+  array.each do |keys, data| 
+    array.merge(keys, data)
+  end  
 end  
   
