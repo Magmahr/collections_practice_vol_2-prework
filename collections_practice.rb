@@ -47,4 +47,9 @@ def count_elements(array)
       x[:count] = count
     end  
   total
+end 
+
+def merge_data(array)
+  array.merge
 end  
+  
