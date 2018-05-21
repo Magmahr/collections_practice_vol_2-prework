@@ -81,7 +81,7 @@ def organize_schools(array)
   organized = {}
     array.each do |name, place|
       place.each do |key, location|
-        if organized[location] = nil
+        if organized[location] == nil
           organized[location] = []
           organized[location] << name
         else  
