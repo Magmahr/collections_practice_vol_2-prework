@@ -51,11 +51,11 @@ end
 
 def merge_data(keys, data)
   merged = []
-  keys.each do |hash|
+  keys.each do |key_hash|
     hash.each do |key, value|
-      data.each do |hash|
+      data.each do |data_hash|
         hash.each do |name, attibutes|
-          if name == value
+          if name == value << 
     
 end  
   
