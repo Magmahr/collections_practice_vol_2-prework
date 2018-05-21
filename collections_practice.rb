@@ -39,7 +39,7 @@ def count_elements(array)
   total = array.uniq
     total.each do |x|
       count = 0
-      total.each do |y|
+      array.each do |y|
         if x == y
           count += 1
         end 
