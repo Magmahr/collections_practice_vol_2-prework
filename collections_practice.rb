@@ -49,7 +49,7 @@ def count_elements(array)
   total
 end 
 
-def merge_data(array)
+def merge_data(keys, data)
   array.flatten
 end  
   
