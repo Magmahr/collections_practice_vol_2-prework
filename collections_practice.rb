@@ -79,7 +79,7 @@ end
 
 def organize_schools(array)
   organized = {}
-    array.each do |name, location|
+    array.each do |name, place|
       location.each do |key, location|
         organized[school] = {:location => city}
       end  
