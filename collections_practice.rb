@@ -68,7 +68,8 @@ end
 def find_cool(array) 
   cool = []
   array.each do |hash|
-    hash.each do |value|
+    hash.each_value do |value|
       if value == "cool"
+        cool << hash
     
 end    
