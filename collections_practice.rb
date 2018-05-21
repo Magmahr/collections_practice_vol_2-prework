@@ -84,6 +84,8 @@ def organize_schools(array)
         if organized[location] = nil
           organized[location] = []
           organized[location] << name
+        else  
+          
       end  
     end
     organized
