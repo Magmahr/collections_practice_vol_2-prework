@@ -82,7 +82,7 @@ def organize_schools(array)
     array.each do |name, place|
       location.each do |key, location|
         if organized[location] = nil
-          
+          organized
       end  
     end
     organized
