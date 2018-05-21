@@ -46,6 +46,5 @@ def count_elements(array)
       end  
     end  
     x[:count] = count
-  end
   total
 end  
