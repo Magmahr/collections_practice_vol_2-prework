@@ -65,3 +65,8 @@ def merge_data(keys, data)
   merged
 end  
   
+def find_cool(array)  
+  array.each do |hash|
+    hash.each do ||
+    
+end    
