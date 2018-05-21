@@ -78,5 +78,11 @@ def find_cool(array)
 end   
 
 def organize_schools(array)
-  array
+  organized = {}
+    array.each do |city|
+      city.each_value do |school|
+        organized[school] = {:location => city}
+      end  
+    end
+    organized
 end  
