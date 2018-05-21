@@ -43,8 +43,8 @@ def count_elements(array)
         if x == y
           count += 1
         end 
-      end  
+      end 
+      x[:count] = count
     end  
-    x[:count] = count
   total
 end  
