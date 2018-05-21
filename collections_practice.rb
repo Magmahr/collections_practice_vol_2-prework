@@ -50,6 +50,6 @@ def count_elements(array)
 end 
 
 def merge_data(keys, data)
-  array.flatten
+  array.merge(keys, data)
 end  
   
